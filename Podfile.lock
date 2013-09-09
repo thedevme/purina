@@ -1,0 +1,20 @@
+
+PODS:
+- DCRoundSwitch (0.0.1)
+- IBAForms (1.1.0)
+- OHAttributedLabel (3.2.1)
+- SVProgressHUD (0.8)
+
+DEPENDENCIES:
+- DCRoundSwitch (~> 0.0.1)
+- IBAForms (~> 1.1.0)
+- OHAttributedLabel (~> 3.2.1)
+- SVProgressHUD
+
+SPEC CHECKSUMS:
+  DCRoundSwitch: c08f58330d242f182450b5e4ad32e5238f53d6d4
+  IBAForms: 5db0fe9aee59fd73076e8c696074f8da939b0f56
+  OHAttributedLabel: 544eb3d413392a8a3f5fac2ca5b191bad4a8d6a5
+  SVProgressHUD: 51042a14e3a716efdbdd73cbb2181fb23ee94389
+
+COCOAPODS: 0.15.2

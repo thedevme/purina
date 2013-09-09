@@ -1,0 +1,58 @@
+
+html, body{
+  margin:0;
+  padding:0 5px;
+  overflow: hidden; 
+  font-family:"Helvetica Neue"; 
+  font-size: 13px;
+	color:#565656;
+}
+
+p 
+{
+  
+}
+
+.title
+{
+	color:#565656;
+	font-size: 18px;
+	margin:0;
+	padding:0;
+}
+
+
+h1
+{
+	color:#565656;
+	font-size: 18px;
+	font-weight: bold;
+	margin:0;
+	padding:0;
+}
+
+.medium
+{
+	color:#565656;
+	font-size: 12px;
+	margin:0;
+	padding-top:6px;
+}
+
+.liner
+{
+	margin:0;
+	padding:0;
+}
+
+.bolder {
+  color:#565656;
+font-size: 13px;
+font-weight: bold;
+}
+
+.unbold {
+  color:#565656;
+font-size: 13px;
+font-weight: normal;
+}

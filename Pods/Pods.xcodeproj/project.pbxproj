@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014524279C5545C9A7C63A91 /* IBALabelFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = AF96DCE6723D492FA55F2196 /* IBALabelFormField.m */; };
+		02060B94B959470FA0C84099 /* DCRoundSwitchOutlineLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B18F9663BB749AA9048B1D9 /* DCRoundSwitchOutlineLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03D46F44AC434AE9B54CE876 /* IBAMultiplePickListInputProvider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04F6E3270E584351A93E781A /* IBAMultiplePickListInputProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		056C5971F1944FEC88DEE9A7 /* IBAFormFieldCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49DFD53650BD427F8253FC79 /* IBAFormFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C0E902D52814DC6BED13F75 /* OHASBasicMarkupParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E84FFA4BD23045E88E0E959B /* OHASBasicMarkupParser.m */; };
+		0ED462125B514DE384091F65 /* IBAFormConstants.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD30B94A318F482D8AC57B98 /* IBAFormConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1276E5A986EA4D0A8ED3D12C /* NSAttributedString+Attributes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB37249446A6446CA097B820 /* NSAttributedString+Attributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12F974EFC51E42C4A4A26A67 /* OHASBasicMarkupParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D92F258511F6413FB069E52E /* OHASBasicMarkupParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19DF2ECBFA50499C8513AD87 /* IBASinglePickListInputProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 59112A214B294BD9B80B8830 /* IBASinglePickListInputProvider.m */; };
+		19E7A834DEDA402ABFE1C2DE /* SVProgressHUD.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 536AFC70AEC242EC93C880A8 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1FBE39074A48FDBE13E85A /* IBAFormField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 77DF912AF4574A79B0089934 /* IBAFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C60B644A27F430988C7B31A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6C285ED64140679C428B5F /* Foundation.framework */; };
+		1F4E87CB4EFD446C8FF60109 /* DCRoundSwitchKnobLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 75CB181EA08942478F041ED2 /* DCRoundSwitchKnobLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		209F674A153A4D8D8F535DCB /* IBATextFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = B295DDC0BCBE4620B8E82C6F /* IBATextFormField.m */; };
+		263FDF4585C9435C938C514E /* IBAButtonFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB7E3BEBDE418788450BDB /* IBAButtonFormField.m */; };
+		26CD39BF64DE49769A2A3DD7 /* IBADateFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 10883CCA2D6A4442A6714177 /* IBADateFormField.m */; };
+		2AC85230A6F9422F8DB26D6B /* IBABooleanFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4509950AA14C44119249AC71 /* IBABooleanFormField.m */; };
+		2B81E8D0447F41479A8D7E23 /* IBAPickListFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE25E54A61947968408F005 /* IBAPickListFormField.m */; };
+		3131ECFAEB184282BEFDD0F0 /* IBALabelFormCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 868D8DAF2E424B38AC0CF0E4 /* IBALabelFormCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33A98DE77C4D43B5905FED6B /* IBAFormDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C7AD4EF871405A8F0F7F5A /* IBAFormDataSource.m */; };
+		35D961097F8E4EB8AD5101A8 /* IBATextFormField+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E004982141F4A5C89536E02 /* IBATextFormField+Factory.m */; };
+		391540133C8C4B2FA743A9BE /* IBAInputRequestorFormField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CBB9B166077497094CBE3A8 /* IBAInputRequestorFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CA818AEA1F54F60BAFE7BF4 /* DCRoundSwitchKnobLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F778E3A40C4A8ABF31DA8A /* DCRoundSwitchKnobLayer.m */; };
+		3D317D98DA7846C0A3ADBFA2 /* IBAReadOnlyTextFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB4C9C210714286BEB6FFE1 /* IBAReadOnlyTextFormField.m */; };
+		4147C7AC5F17423C9CD9FC6C /* IBABooleanFormField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A04092F0EFDC426FA2AD9E82 /* IBABooleanFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4623E2D482664533AF285BF4 /* IBATitleFormField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C32CCC14F3104879AF63E05E /* IBATitleFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		478226E2D1344F408F7DF888 /* IBABooleanSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F24C5D6ADE049D487920EF0 /* IBABooleanSwitchCell.m */; };
+		4D3811F719ED4B7182FD91AF /* IBAFormDataSource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F3459F92F4F40F6BEDCEA38 /* IBAFormDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		514F924B0A9443F3BA4652D2 /* IBALabelFormField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E996BB8068A4BE8B2959D56 /* IBALabelFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		566C9996870C461691071429 /* IBAForms.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF742539D4CD4497B6F024ED /* IBAForms.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56ED6A73C5094F7E941687B8 /* IBAFormSection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A84C50567EEA493592E01B9B /* IBAFormSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5992D673A3734592988F9F40 /* IBADateFormFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7782EE2BB4F1FB20F53A2 /* IBADateFormFieldCell.m */; };
+		5BE52E524E6D4AD3B23A33D6 /* CoreTextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 36180D69257B4A309B0012E7 /* CoreTextUtils.m */; };
+		5F5B2A8EACC442F3882CAF82 /* IBATextFormField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5CB3F3950D224569AA488A83 /* IBATextFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60A8D1F83DAB41EA91EB24EF /* IBAFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7200D987AB434782B4C6E1D0 /* IBAFormViewController.m */; };
+		61251DA1BEDD410FB07E39DC /* DCRoundSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA92F989CD4093AD7128B7 /* DCRoundSwitch.m */; };
+		6153F3CED63A42B796AA19C4 /* OHAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A61B09F0221E4821B25900B5 /* OHAttributedLabel.m */; };
+		61AD6EE013624476BB853A33 /* IBAReadOnlyTextFormField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A4C9675BBE4F4610B55651F5 /* IBAReadOnlyTextFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6381CF1457FD4784994B45E2 /* IBADateFormFieldCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F6063E4B4A0D4BFFB21C5076 /* IBADateFormFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74750BDB6ECD499BAFB5BFED /* IBALabelFormCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E85B7A7691864C4A9885E3EE /* IBALabelFormCell.m */; };
+		74813B27D0154F82ADEFBE86 /* IBADateFormField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 32098BEB4CEB47CAAD37EB2F /* IBADateFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75B80AF63ADC495D997B0056 /* OHASBasicHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C25AF71720E54343B28EFA07 /* OHASBasicHTMLParser.m */; };
+		799C836EDEFF4216A8494084 /* IBATextFormFieldCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9C50CB22016748A1BF93B0D7 /* IBATextFormFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79B36ACBC02C413993378BED /* IBAInputManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D868615DB66544A6ACF2AFDD /* IBAInputManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A443C75A4E240DAAD3F01A7 /* OHASMarkupParserBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8BE981B8894C028E32820E /* OHASMarkupParserBase.m */; };
+		7A68B909C5334569BE3A500E /* IBAInputProvider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 210CD927D60A4313AF687869 /* IBAInputProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8203DD85C92746EEB036C059 /* IBADateInputProvider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AD61DDC264DC4655A8D985B5 /* IBADateInputProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		851BB9EBDC364A3DBEC018EF /* IBAFormSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3E6EF8129D4B9BAB7811A6 /* IBAFormSection.m */; };
+		857E5E5441274D5C8B9C6693 /* IBATextInputProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3175F85EA1B847649FFAC0F2 /* IBATextInputProvider.m */; };
+		89708C1E7FB54DA5B4827322 /* IBAInputNavigationToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = D002475E3E054B189B475C1D /* IBAInputNavigationToolbar.m */; };
+		8F645562C2504B89B5BBAF11 /* IBAFormViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 686823ED320D41C2AB1B6A66 /* IBAFormViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90BBE0A9884B48C285E79D4E /* IBATextInputProvider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8E44043F31B44F8DBF19684E /* IBATextInputProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		944B849972ED499393760167 /* DCRoundSwitchOutlineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F19E074F93439FA343C7AA /* DCRoundSwitchOutlineLayer.m */; };
+		96B951A1285F4A328C56D535 /* IBADateInputProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 58411E12D68D4B7DBE7C7330 /* IBADateInputProvider.m */; };
+		9786FB2CB6E94421AE56C644 /* IBATextFormField+Factory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D5D92DCD21BA4C6BAE7AD122 /* IBATextFormField+Factory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2F3D2F502A841369723AFC4 /* IBAInputManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D568E268F602418A8C8C282F /* IBAInputManager.m */; };
+		A8B27E8267504918B363ADF1 /* OHAttributedLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D1337A37473849EDA72ED337 /* OHAttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9FAD7CF79D548F688D59ECE /* NSTextCheckingResult+ExtendedURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFD592DB6EA495AA631F0A1 /* NSTextCheckingResult+ExtendedURL.m */; };
+		AB6DCDB4B9094AE0A57FC07C /* IBAInputRequestorFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B7314645E2487493034D29 /* IBAInputRequestorFormField.m */; };
+		AC72207AB0694453AC04AFCB /* IBATextFormFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C39980BA2A4D7B8C545B45 /* IBATextFormFieldCell.m */; };
+		ACD5866933C3423591320C40 /* IBAInputCommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FE597B942EDC4B6E99488268 /* IBAInputCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADB5DF1119D745E8B334B7F1 /* IBAFormModelManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B424558B479841CB8E0CE3D1 /* IBAFormModelManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B11CDAD236F14F2A93E76D5E /* DCRoundSwitch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC306D15BD2748A8BD21DFC9 /* DCRoundSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17F6A7117A8427B906722F8 /* IBAPickListFormField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A1B2EAC86D074FB79A9FEEF2 /* IBAPickListFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B739C9D4228F4D71B6331F78 /* IBAInputNavigationToolbar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F89BD5FD8D354C14BA95CB15 /* IBAInputNavigationToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8379B74DA8F4A7CAB7C9763 /* IBAFormFieldStyle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4769E1663F8B48F786F72BA1 /* IBAFormFieldStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF213F53C7864951939AB50B /* OHASMarkupParserBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB2C790882904ED98589ECF2 /* OHASMarkupParserBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF4154C60A7645DBA3587DD0 /* IBAFormFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D7879D3F544F27AE0AB2BE /* IBAFormFieldCell.m */; };
+		C12A2F7826F84A8B9A40212C /* CoreTextUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8971B03E231E4E8E9F53E62A /* CoreTextUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C549B7177F064824821F10DF /* PodsDummy_Pods.m in Sources */ = {isa = PBXBuildFile; fileRef = 582ED231ECB646F5B458BEF3 /* PodsDummy_Pods.m */; };
+		C7260AD5BC4E42359F2E285F /* IBAInputRequestorDataSource.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E8FBA69E34EF4BFC9F8B1422 /* IBAInputRequestorDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9EED73699844B9ABB9985CD /* IBAInputRequestor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4F5FE135135D4ACA89367427 /* IBAInputRequestor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB81A29F6E5E46E2BB1ED3F4 /* IBACommon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F6309484BE7546B8BA54AABD /* IBACommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBCEE614E6104053B8C4EE09 /* OHASBasicHTMLParser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E86E2577EEE04654BF3195AD /* OHASBasicHTMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D159E6F46DC442A38E26694F /* IBAFormFieldStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FA980AF34D470BBEE8E558 /* IBAFormFieldStyle.m */; };
+		D45196D52865447298FF8330 /* IBABooleanSwitchCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF98BFDDD90C44208333DFD5 /* IBABooleanSwitchCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAA0B76A119D4B99AF2C3019 /* IBAPickListOptionsProvider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 370DFFA8FB67432485DF492C /* IBAPickListOptionsProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBB5CB2FE57E4794A93E9461 /* IBATitleFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 96810486CFCE4D1C955DC445 /* IBATitleFormField.m */; };
+		DC4CD4730C034C259BE0DDE4 /* IBAFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C5ECB48CBA4841BD876CFD /* IBAFormField.m */; };
+		E201ADA2CE3E4D948887DA2D /* IBAButtonFormField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5993B816095D495386432458 /* IBAButtonFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9012AF363224ADC9560DAD4 /* IBAMultiplePickListInputProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A93445FE195E4BE7860ECAE0 /* IBAMultiplePickListInputProvider.m */; };
+		EAFF5ADAB64A4178BB098E4D /* NSAttributedString+Attributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 930C4704174B4E6C8D98C2EB /* NSAttributedString+Attributes.m */; };
+		F2E1916A5FD34051AC2DBA93 /* IBASinglePickListInputProvider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B51EF1C71DBE436C995C2EDC /* IBASinglePickListInputProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F53C574513FF4084BF404C2F /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3DAC2897CB4F28ADDDAF16 /* SVProgressHUD.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		FC6AC6291641459096AC71BF /* DCRoundSwitchToggleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E405C3F16D4C3491093F4D /* DCRoundSwitchToggleLayer.m */; };
+		FC9BE2D0A2B1408482C97ED6 /* DCRoundSwitchToggleLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FBB4F87F6F544A50842E6EE5 /* DCRoundSwitchToggleLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD4AE7BC149D460FBA4DC23F /* NSTextCheckingResult+ExtendedURL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B9452FEBD5E74FA28153C626 /* NSTextCheckingResult+ExtendedURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E840BF5174A94BE895DB19BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B11CDAD236F14F2A93E76D5E /* DCRoundSwitch.h in CopyFiles */,
+				1F4E87CB4EFD446C8FF60109 /* DCRoundSwitchKnobLayer.h in CopyFiles */,
+				02060B94B959470FA0C84099 /* DCRoundSwitchOutlineLayer.h in CopyFiles */,
+				FC9BE2D0A2B1408482C97ED6 /* DCRoundSwitchToggleLayer.h in CopyFiles */,
+				4147C7AC5F17423C9CD9FC6C /* IBABooleanFormField.h in CopyFiles */,
+				D45196D52865447298FF8330 /* IBABooleanSwitchCell.h in CopyFiles */,
+				E201ADA2CE3E4D948887DA2D /* IBAButtonFormField.h in CopyFiles */,
+				CB81A29F6E5E46E2BB1ED3F4 /* IBACommon.h in CopyFiles */,
+				74813B27D0154F82ADEFBE86 /* IBADateFormField.h in CopyFiles */,
+				6381CF1457FD4784994B45E2 /* IBADateFormFieldCell.h in CopyFiles */,
+				8203DD85C92746EEB036C059 /* IBADateInputProvider.h in CopyFiles */,
+				0ED462125B514DE384091F65 /* IBAFormConstants.h in CopyFiles */,
+				4D3811F719ED4B7182FD91AF /* IBAFormDataSource.h in CopyFiles */,
+				1C1FBE39074A48FDBE13E85A /* IBAFormField.h in CopyFiles */,
+				056C5971F1944FEC88DEE9A7 /* IBAFormFieldCell.h in CopyFiles */,
+				B8379B74DA8F4A7CAB7C9763 /* IBAFormFieldStyle.h in CopyFiles */,
+				ADB5DF1119D745E8B334B7F1 /* IBAFormModelManager.h in CopyFiles */,
+				566C9996870C461691071429 /* IBAForms.h in CopyFiles */,
+				56ED6A73C5094F7E941687B8 /* IBAFormSection.h in CopyFiles */,
+				8F645562C2504B89B5BBAF11 /* IBAFormViewController.h in CopyFiles */,
+				ACD5866933C3423591320C40 /* IBAInputCommon.h in CopyFiles */,
+				79B36ACBC02C413993378BED /* IBAInputManager.h in CopyFiles */,
+				B739C9D4228F4D71B6331F78 /* IBAInputNavigationToolbar.h in CopyFiles */,
+				7A68B909C5334569BE3A500E /* IBAInputProvider.h in CopyFiles */,
+				C9EED73699844B9ABB9985CD /* IBAInputRequestor.h in CopyFiles */,
+				C7260AD5BC4E42359F2E285F /* IBAInputRequestorDataSource.h in CopyFiles */,
+				391540133C8C4B2FA743A9BE /* IBAInputRequestorFormField.h in CopyFiles */,
+				3131ECFAEB184282BEFDD0F0 /* IBALabelFormCell.h in CopyFiles */,
+				514F924B0A9443F3BA4652D2 /* IBALabelFormField.h in CopyFiles */,
+				03D46F44AC434AE9B54CE876 /* IBAMultiplePickListInputProvider.h in CopyFiles */,
+				B17F6A7117A8427B906722F8 /* IBAPickListFormField.h in CopyFiles */,
+				DAA0B76A119D4B99AF2C3019 /* IBAPickListOptionsProvider.h in CopyFiles */,
+				61AD6EE013624476BB853A33 /* IBAReadOnlyTextFormField.h in CopyFiles */,
+				F2E1916A5FD34051AC2DBA93 /* IBASinglePickListInputProvider.h in CopyFiles */,
+				9786FB2CB6E94421AE56C644 /* IBATextFormField+Factory.h in CopyFiles */,
+				5F5B2A8EACC442F3882CAF82 /* IBATextFormField.h in CopyFiles */,
+				799C836EDEFF4216A8494084 /* IBATextFormFieldCell.h in CopyFiles */,
+				90BBE0A9884B48C285E79D4E /* IBATextInputProvider.h in CopyFiles */,
+				4623E2D482664533AF285BF4 /* IBATitleFormField.h in CopyFiles */,
+				C12A2F7826F84A8B9A40212C /* CoreTextUtils.h in CopyFiles */,
+				1276E5A986EA4D0A8ED3D12C /* NSAttributedString+Attributes.h in CopyFiles */,
+				FD4AE7BC149D460FBA4DC23F /* NSTextCheckingResult+ExtendedURL.h in CopyFiles */,
+				A8B27E8267504918B363ADF1 /* OHAttributedLabel.h in CopyFiles */,
+				CBCEE614E6104053B8C4EE09 /* OHASBasicHTMLParser.h in CopyFiles */,
+				12F974EFC51E42C4A4A26A67 /* OHASBasicMarkupParser.h in CopyFiles */,
+				BF213F53C7864951939AB50B /* OHASMarkupParserBase.h in CopyFiles */,
+				19E7A834DEDA402ABFE1C2DE /* SVProgressHUD.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04F6E3270E584351A93E781A /* IBAMultiplePickListInputProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAMultiplePickListInputProvider.h; path = IBAForms/library/headers/IBAForms/IBAMultiplePickListInputProvider.h; sourceTree = SOURCE_ROOT; };
+		0EDA92F989CD4093AD7128B7 /* DCRoundSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; name = DCRoundSwitch.m; path = DCRoundSwitch/DCRoundSwitch/DCRoundSwitch.m; sourceTree = SOURCE_ROOT; };
+		0F24C5D6ADE049D487920EF0 /* IBABooleanSwitchCell.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBABooleanSwitchCell.m; path = IBAForms/library/src/forms/views/IBABooleanSwitchCell.m; sourceTree = SOURCE_ROOT; };
+		10883CCA2D6A4442A6714177 /* IBADateFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBADateFormField.m; path = IBAForms/library/src/forms/controllers/IBADateFormField.m; sourceTree = SOURCE_ROOT; };
+		18C39980BA2A4D7B8C545B45 /* IBATextFormFieldCell.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBATextFormFieldCell.m; path = IBAForms/library/src/forms/views/IBATextFormFieldCell.m; sourceTree = SOURCE_ROOT; };
+		210CD927D60A4313AF687869 /* IBAInputProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAInputProvider.h; path = IBAForms/library/headers/IBAForms/IBAInputProvider.h; sourceTree = SOURCE_ROOT; };
+		2A3DAC2897CB4F28ADDDAF16 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD/SVProgressHUD.m; sourceTree = SOURCE_ROOT; };
+		2B18F9663BB749AA9048B1D9 /* DCRoundSwitchOutlineLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; name = DCRoundSwitchOutlineLayer.h; path = DCRoundSwitch/DCRoundSwitch/DCRoundSwitchOutlineLayer.h; sourceTree = SOURCE_ROOT; };
+		2CBB9B166077497094CBE3A8 /* IBAInputRequestorFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAInputRequestorFormField.h; path = IBAForms/library/headers/IBAForms/IBAInputRequestorFormField.h; sourceTree = SOURCE_ROOT; };
+		2D43C3CC75D043BCAD178FE5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		2DB4C9C210714286BEB6FFE1 /* IBAReadOnlyTextFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAReadOnlyTextFormField.m; path = IBAForms/library/src/forms/controllers/IBAReadOnlyTextFormField.m; sourceTree = SOURCE_ROOT; };
+		2E004982141F4A5C89536E02 /* IBATextFormField+Factory.m */ = {isa = PBXFileReference; includeInIndex = 1; name = "IBATextFormField+Factory.m"; path = "IBAForms/library/src/forms/categories/IBATextFormField+Factory.m"; sourceTree = SOURCE_ROOT; };
+		30DE421BBE7A4E3B9ADD79AF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3175F85EA1B847649FFAC0F2 /* IBATextInputProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBATextInputProvider.m; path = IBAForms/library/src/input/controllers/IBATextInputProvider.m; sourceTree = SOURCE_ROOT; };
+		32098BEB4CEB47CAAD37EB2F /* IBADateFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBADateFormField.h; path = IBAForms/library/headers/IBAForms/IBADateFormField.h; sourceTree = SOURCE_ROOT; };
+		36180D69257B4A309B0012E7 /* CoreTextUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; name = CoreTextUtils.m; path = OHAttributedLabel/OHAttributedLabel/PrivateUtils/CoreTextUtils.m; sourceTree = SOURCE_ROOT; };
+		370DFFA8FB67432485DF492C /* IBAPickListOptionsProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAPickListOptionsProvider.h; path = IBAForms/library/headers/IBAForms/IBAPickListOptionsProvider.h; sourceTree = SOURCE_ROOT; };
+		3DFB7E3BEBDE418788450BDB /* IBAButtonFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAButtonFormField.m; path = IBAForms/library/src/forms/controllers/IBAButtonFormField.m; sourceTree = SOURCE_ROOT; };
+		42FA980AF34D470BBEE8E558 /* IBAFormFieldStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAFormFieldStyle.m; path = IBAForms/library/src/forms/controllers/IBAFormFieldStyle.m; sourceTree = SOURCE_ROOT; };
+		4509950AA14C44119249AC71 /* IBABooleanFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBABooleanFormField.m; path = IBAForms/library/src/forms/controllers/IBABooleanFormField.m; sourceTree = SOURCE_ROOT; };
+		46C5ECB48CBA4841BD876CFD /* IBAFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAFormField.m; path = IBAForms/library/src/forms/controllers/IBAFormField.m; sourceTree = SOURCE_ROOT; };
+		4769E1663F8B48F786F72BA1 /* IBAFormFieldStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAFormFieldStyle.h; path = IBAForms/library/headers/IBAForms/IBAFormFieldStyle.h; sourceTree = SOURCE_ROOT; };
+		48B431D278034D5AB48F8F87 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; name = "Pods-resources.sh"; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		49DFD53650BD427F8253FC79 /* IBAFormFieldCell.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAFormFieldCell.h; path = IBAForms/library/headers/IBAForms/IBAFormFieldCell.h; sourceTree = SOURCE_ROOT; };
+		4F5FE135135D4ACA89367427 /* IBAInputRequestor.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAInputRequestor.h; path = IBAForms/library/headers/IBAForms/IBAInputRequestor.h; sourceTree = SOURCE_ROOT; };
+		4FFD592DB6EA495AA631F0A1 /* NSTextCheckingResult+ExtendedURL.m */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSTextCheckingResult+ExtendedURL.m"; path = "OHAttributedLabel/OHAttributedLabel/Source/NSTextCheckingResult+ExtendedURL.m"; sourceTree = SOURCE_ROOT; };
+		536AFC70AEC242EC93C880A8 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD/SVProgressHUD.h; sourceTree = SOURCE_ROOT; };
+		54D7879D3F544F27AE0AB2BE /* IBAFormFieldCell.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAFormFieldCell.m; path = IBAForms/library/src/forms/views/IBAFormFieldCell.m; sourceTree = SOURCE_ROOT; };
+		582ED231ECB646F5B458BEF3 /* PodsDummy_Pods.m */ = {isa = PBXFileReference; includeInIndex = 1; name = PodsDummy_Pods.m; path = PodsDummy_Pods.m; sourceTree = SOURCE_ROOT; };
+		58411E12D68D4B7DBE7C7330 /* IBADateInputProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBADateInputProvider.m; path = IBAForms/library/src/input/controllers/IBADateInputProvider.m; sourceTree = SOURCE_ROOT; };
+		59112A214B294BD9B80B8830 /* IBASinglePickListInputProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBASinglePickListInputProvider.m; path = IBAForms/library/src/input/controllers/IBASinglePickListInputProvider.m; sourceTree = SOURCE_ROOT; };
+		5993B816095D495386432458 /* IBAButtonFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAButtonFormField.h; path = IBAForms/library/headers/IBAForms/IBAButtonFormField.h; sourceTree = SOURCE_ROOT; };
+		5CB3F3950D224569AA488A83 /* IBATextFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBATextFormField.h; path = IBAForms/library/headers/IBAForms/IBATextFormField.h; sourceTree = SOURCE_ROOT; };
+		5F3459F92F4F40F6BEDCEA38 /* IBAFormDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAFormDataSource.h; path = IBAForms/library/headers/IBAForms/IBAFormDataSource.h; sourceTree = SOURCE_ROOT; };
+		62F778E3A40C4A8ABF31DA8A /* DCRoundSwitchKnobLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; name = DCRoundSwitchKnobLayer.m; path = DCRoundSwitch/DCRoundSwitch/DCRoundSwitchKnobLayer.m; sourceTree = SOURCE_ROOT; };
+		66EECEEE3E45462F995F1A6D /* Pods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; name = "Pods-prefix.pch"; path = "Pods-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		686823ED320D41C2AB1B6A66 /* IBAFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAFormViewController.h; path = IBAForms/library/headers/IBAForms/IBAFormViewController.h; sourceTree = SOURCE_ROOT; };
+		7200D987AB434782B4C6E1D0 /* IBAFormViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAFormViewController.m; path = IBAForms/library/src/forms/controllers/IBAFormViewController.m; sourceTree = SOURCE_ROOT; };
+		72F19E074F93439FA343C7AA /* DCRoundSwitchOutlineLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; name = DCRoundSwitchOutlineLayer.m; path = DCRoundSwitch/DCRoundSwitch/DCRoundSwitchOutlineLayer.m; sourceTree = SOURCE_ROOT; };
+		75CB181EA08942478F041ED2 /* DCRoundSwitchKnobLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; name = DCRoundSwitchKnobLayer.h; path = DCRoundSwitch/DCRoundSwitch/DCRoundSwitchKnobLayer.h; sourceTree = SOURCE_ROOT; };
+		77DF912AF4574A79B0089934 /* IBAFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAFormField.h; path = IBAForms/library/headers/IBAForms/IBAFormField.h; sourceTree = SOURCE_ROOT; };
+		7E6C285ED64140679C428B5F /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		868D8DAF2E424B38AC0CF0E4 /* IBALabelFormCell.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBALabelFormCell.h; path = IBAForms/library/headers/IBAForms/IBALabelFormCell.h; sourceTree = SOURCE_ROOT; };
+		8971B03E231E4E8E9F53E62A /* CoreTextUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; name = CoreTextUtils.h; path = OHAttributedLabel/OHAttributedLabel/PrivateUtils/CoreTextUtils.h; sourceTree = SOURCE_ROOT; };
+		8E44043F31B44F8DBF19684E /* IBATextInputProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBATextInputProvider.h; path = IBAForms/library/headers/IBAForms/IBATextInputProvider.h; sourceTree = SOURCE_ROOT; };
+		8F3E6EF8129D4B9BAB7811A6 /* IBAFormSection.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAFormSection.m; path = IBAForms/library/src/forms/controllers/IBAFormSection.m; sourceTree = SOURCE_ROOT; };
+		930C4704174B4E6C8D98C2EB /* NSAttributedString+Attributes.m */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSAttributedString+Attributes.m"; path = "OHAttributedLabel/OHAttributedLabel/Source/NSAttributedString+Attributes.m"; sourceTree = SOURCE_ROOT; };
+		96810486CFCE4D1C955DC445 /* IBATitleFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBATitleFormField.m; path = IBAForms/library/src/forms/controllers/IBATitleFormField.m; sourceTree = SOURCE_ROOT; };
+		9C50CB22016748A1BF93B0D7 /* IBATextFormFieldCell.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBATextFormFieldCell.h; path = IBAForms/library/headers/IBAForms/IBATextFormFieldCell.h; sourceTree = SOURCE_ROOT; };
+		9E996BB8068A4BE8B2959D56 /* IBALabelFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBALabelFormField.h; path = IBAForms/library/headers/IBAForms/IBALabelFormField.h; sourceTree = SOURCE_ROOT; };
+		A04092F0EFDC426FA2AD9E82 /* IBABooleanFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBABooleanFormField.h; path = IBAForms/library/headers/IBAForms/IBABooleanFormField.h; sourceTree = SOURCE_ROOT; };
+		A1B2EAC86D074FB79A9FEEF2 /* IBAPickListFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAPickListFormField.h; path = IBAForms/library/headers/IBAForms/IBAPickListFormField.h; sourceTree = SOURCE_ROOT; };
+		A4C9675BBE4F4610B55651F5 /* IBAReadOnlyTextFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAReadOnlyTextFormField.h; path = IBAForms/library/headers/IBAForms/IBAReadOnlyTextFormField.h; sourceTree = SOURCE_ROOT; };
+		A5C7AD4EF871405A8F0F7F5A /* IBAFormDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAFormDataSource.m; path = IBAForms/library/src/forms/controllers/IBAFormDataSource.m; sourceTree = SOURCE_ROOT; };
+		A61B09F0221E4821B25900B5 /* OHAttributedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; name = OHAttributedLabel.m; path = OHAttributedLabel/OHAttributedLabel/Source/OHAttributedLabel.m; sourceTree = SOURCE_ROOT; };
+		A84C50567EEA493592E01B9B /* IBAFormSection.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAFormSection.h; path = IBAForms/library/headers/IBAForms/IBAFormSection.h; sourceTree = SOURCE_ROOT; };
+		A93445FE195E4BE7860ECAE0 /* IBAMultiplePickListInputProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAMultiplePickListInputProvider.m; path = IBAForms/library/src/input/controllers/IBAMultiplePickListInputProvider.m; sourceTree = SOURCE_ROOT; };
+		AAE25E54A61947968408F005 /* IBAPickListFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAPickListFormField.m; path = IBAForms/library/src/forms/controllers/IBAPickListFormField.m; sourceTree = SOURCE_ROOT; };
+		AC306D15BD2748A8BD21DFC9 /* DCRoundSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; name = DCRoundSwitch.h; path = DCRoundSwitch/DCRoundSwitch/DCRoundSwitch.h; sourceTree = SOURCE_ROOT; };
+		AD61DDC264DC4655A8D985B5 /* IBADateInputProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBADateInputProvider.h; path = IBAForms/library/headers/IBAForms/IBADateInputProvider.h; sourceTree = SOURCE_ROOT; };
+		AF8BE981B8894C028E32820E /* OHASMarkupParserBase.m */ = {isa = PBXFileReference; includeInIndex = 1; name = OHASMarkupParserBase.m; path = OHAttributedLabel/OHAttributedLabel/TagParsers/OHASMarkupParserBase.m; sourceTree = SOURCE_ROOT; };
+		AF96DCE6723D492FA55F2196 /* IBALabelFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBALabelFormField.m; path = IBAForms/library/src/forms/controllers/IBALabelFormField.m; sourceTree = SOURCE_ROOT; };
+		AF98BFDDD90C44208333DFD5 /* IBABooleanSwitchCell.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBABooleanSwitchCell.h; path = IBAForms/library/headers/IBAForms/IBABooleanSwitchCell.h; sourceTree = SOURCE_ROOT; };
+		B295DDC0BCBE4620B8E82C6F /* IBATextFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBATextFormField.m; path = IBAForms/library/src/forms/controllers/IBATextFormField.m; sourceTree = SOURCE_ROOT; };
+		B424558B479841CB8E0CE3D1 /* IBAFormModelManager.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAFormModelManager.h; path = IBAForms/library/headers/IBAForms/IBAFormModelManager.h; sourceTree = SOURCE_ROOT; };
+		B51EF1C71DBE436C995C2EDC /* IBASinglePickListInputProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBASinglePickListInputProvider.h; path = IBAForms/library/headers/IBAForms/IBASinglePickListInputProvider.h; sourceTree = SOURCE_ROOT; };
+		B9452FEBD5E74FA28153C626 /* NSTextCheckingResult+ExtendedURL.h */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSTextCheckingResult+ExtendedURL.h"; path = "OHAttributedLabel/OHAttributedLabel/Source/NSTextCheckingResult+ExtendedURL.h"; sourceTree = SOURCE_ROOT; };
+		BB2C790882904ED98589ECF2 /* OHASMarkupParserBase.h */ = {isa = PBXFileReference; includeInIndex = 1; name = OHASMarkupParserBase.h; path = OHAttributedLabel/OHAttributedLabel/TagParsers/OHASMarkupParserBase.h; sourceTree = SOURCE_ROOT; };
+		BB37249446A6446CA097B820 /* NSAttributedString+Attributes.h */ = {isa = PBXFileReference; includeInIndex = 1; name = "NSAttributedString+Attributes.h"; path = "OHAttributedLabel/OHAttributedLabel/Source/NSAttributedString+Attributes.h"; sourceTree = SOURCE_ROOT; };
+		C25AF71720E54343B28EFA07 /* OHASBasicHTMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; name = OHASBasicHTMLParser.m; path = OHAttributedLabel/OHAttributedLabel/TagParsers/OHASBasicHTMLParser.m; sourceTree = SOURCE_ROOT; };
+		C32CCC14F3104879AF63E05E /* IBATitleFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBATitleFormField.h; path = IBAForms/library/headers/IBAForms/IBATitleFormField.h; sourceTree = SOURCE_ROOT; };
+		CD30B94A318F482D8AC57B98 /* IBAFormConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAFormConstants.h; path = IBAForms/library/headers/IBAForms/IBAFormConstants.h; sourceTree = SOURCE_ROOT; };
+		D002475E3E054B189B475C1D /* IBAInputNavigationToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAInputNavigationToolbar.m; path = IBAForms/library/src/input/views/IBAInputNavigationToolbar.m; sourceTree = SOURCE_ROOT; };
+		D1337A37473849EDA72ED337 /* OHAttributedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; name = OHAttributedLabel.h; path = OHAttributedLabel/OHAttributedLabel/Source/OHAttributedLabel.h; sourceTree = SOURCE_ROOT; };
+		D568E268F602418A8C8C282F /* IBAInputManager.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAInputManager.m; path = IBAForms/library/src/input/controllers/IBAInputManager.m; sourceTree = SOURCE_ROOT; };
+		D5D92DCD21BA4C6BAE7AD122 /* IBATextFormField+Factory.h */ = {isa = PBXFileReference; includeInIndex = 1; name = "IBATextFormField+Factory.h"; path = "IBAForms/library/headers/IBAForms/IBATextFormField+Factory.h"; sourceTree = SOURCE_ROOT; };
+		D868615DB66544A6ACF2AFDD /* IBAInputManager.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAInputManager.h; path = IBAForms/library/headers/IBAForms/IBAInputManager.h; sourceTree = SOURCE_ROOT; };
+		D92F258511F6413FB069E52E /* OHASBasicMarkupParser.h */ = {isa = PBXFileReference; includeInIndex = 1; name = OHASBasicMarkupParser.h; path = OHAttributedLabel/OHAttributedLabel/TagParsers/OHASBasicMarkupParser.h; sourceTree = SOURCE_ROOT; };
+		DF742539D4CD4497B6F024ED /* IBAForms.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAForms.h; path = IBAForms/library/headers/IBAForms/IBAForms.h; sourceTree = SOURCE_ROOT; };
+		E84FFA4BD23045E88E0E959B /* OHASBasicMarkupParser.m */ = {isa = PBXFileReference; includeInIndex = 1; name = OHASBasicMarkupParser.m; path = OHAttributedLabel/OHAttributedLabel/TagParsers/OHASBasicMarkupParser.m; sourceTree = SOURCE_ROOT; };
+		E85B7A7691864C4A9885E3EE /* IBALabelFormCell.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBALabelFormCell.m; path = IBAForms/library/src/forms/views/IBALabelFormCell.m; sourceTree = SOURCE_ROOT; };
+		E86E2577EEE04654BF3195AD /* OHASBasicHTMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; name = OHASBasicHTMLParser.h; path = OHAttributedLabel/OHAttributedLabel/TagParsers/OHASBasicHTMLParser.h; sourceTree = SOURCE_ROOT; };
+		E8FBA69E34EF4BFC9F8B1422 /* IBAInputRequestorDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAInputRequestorDataSource.h; path = IBAForms/library/headers/IBAForms/IBAInputRequestorDataSource.h; sourceTree = SOURCE_ROOT; };
+		F4B7314645E2487493034D29 /* IBAInputRequestorFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAInputRequestorFormField.m; path = IBAForms/library/src/forms/controllers/IBAInputRequestorFormField.m; sourceTree = SOURCE_ROOT; };
+		F5A7782EE2BB4F1FB20F53A2 /* IBADateFormFieldCell.m */ = {isa = PBXFileReference; includeInIndex = 1; name = IBADateFormFieldCell.m; path = IBAForms/library/src/forms/views/IBADateFormFieldCell.m; sourceTree = SOURCE_ROOT; };
+		F6063E4B4A0D4BFFB21C5076 /* IBADateFormFieldCell.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBADateFormFieldCell.h; path = IBAForms/library/headers/IBAForms/IBADateFormFieldCell.h; sourceTree = SOURCE_ROOT; };
+		F6309484BE7546B8BA54AABD /* IBACommon.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBACommon.h; path = IBAForms/library/headers/IBAForms/IBACommon.h; sourceTree = SOURCE_ROOT; };
+		F7E405C3F16D4C3491093F4D /* DCRoundSwitchToggleLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; name = DCRoundSwitchToggleLayer.m; path = DCRoundSwitch/DCRoundSwitch/DCRoundSwitchToggleLayer.m; sourceTree = SOURCE_ROOT; };
+		F89BD5FD8D354C14BA95CB15 /* IBAInputNavigationToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAInputNavigationToolbar.h; path = IBAForms/library/headers/IBAForms/IBAInputNavigationToolbar.h; sourceTree = SOURCE_ROOT; };
+		FBB4F87F6F544A50842E6EE5 /* DCRoundSwitchToggleLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; name = DCRoundSwitchToggleLayer.h; path = DCRoundSwitch/DCRoundSwitch/DCRoundSwitchToggleLayer.h; sourceTree = SOURCE_ROOT; };
+		FE597B942EDC4B6E99488268 /* IBAInputCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; name = IBAInputCommon.h; path = IBAForms/library/headers/IBAForms/IBAInputCommon.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED47CA3B51F74E88A15BE50A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C60B644A27F430988C7B31A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC51B6686204FF4A0DFDDF2 /* IBAForms */ = {
+			isa = PBXGroup;
+			children = (
+				A04092F0EFDC426FA2AD9E82 /* IBABooleanFormField.h */,
+				AF98BFDDD90C44208333DFD5 /* IBABooleanSwitchCell.h */,
+				5993B816095D495386432458 /* IBAButtonFormField.h */,
+				F6309484BE7546B8BA54AABD /* IBACommon.h */,
+				32098BEB4CEB47CAAD37EB2F /* IBADateFormField.h */,
+				F6063E4B4A0D4BFFB21C5076 /* IBADateFormFieldCell.h */,
+				AD61DDC264DC4655A8D985B5 /* IBADateInputProvider.h */,
+				CD30B94A318F482D8AC57B98 /* IBAFormConstants.h */,
+				5F3459F92F4F40F6BEDCEA38 /* IBAFormDataSource.h */,
+				77DF912AF4574A79B0089934 /* IBAFormField.h */,
+				49DFD53650BD427F8253FC79 /* IBAFormFieldCell.h */,
+				4769E1663F8B48F786F72BA1 /* IBAFormFieldStyle.h */,
+				B424558B479841CB8E0CE3D1 /* IBAFormModelManager.h */,
+				DF742539D4CD4497B6F024ED /* IBAForms.h */,
+				A84C50567EEA493592E01B9B /* IBAFormSection.h */,
+				686823ED320D41C2AB1B6A66 /* IBAFormViewController.h */,
+				FE597B942EDC4B6E99488268 /* IBAInputCommon.h */,
+				D868615DB66544A6ACF2AFDD /* IBAInputManager.h */,
+				F89BD5FD8D354C14BA95CB15 /* IBAInputNavigationToolbar.h */,
+				210CD927D60A4313AF687869 /* IBAInputProvider.h */,
+				4F5FE135135D4ACA89367427 /* IBAInputRequestor.h */,
+				E8FBA69E34EF4BFC9F8B1422 /* IBAInputRequestorDataSource.h */,
+				2CBB9B166077497094CBE3A8 /* IBAInputRequestorFormField.h */,
+				868D8DAF2E424B38AC0CF0E4 /* IBALabelFormCell.h */,
+				9E996BB8068A4BE8B2959D56 /* IBALabelFormField.h */,
+				04F6E3270E584351A93E781A /* IBAMultiplePickListInputProvider.h */,
+				A1B2EAC86D074FB79A9FEEF2 /* IBAPickListFormField.h */,
+				370DFFA8FB67432485DF492C /* IBAPickListOptionsProvider.h */,
+				A4C9675BBE4F4610B55651F5 /* IBAReadOnlyTextFormField.h */,
+				B51EF1C71DBE436C995C2EDC /* IBASinglePickListInputProvider.h */,
+				D5D92DCD21BA4C6BAE7AD122 /* IBATextFormField+Factory.h */,
+				5CB3F3950D224569AA488A83 /* IBATextFormField.h */,
+				9C50CB22016748A1BF93B0D7 /* IBATextFormFieldCell.h */,
+				8E44043F31B44F8DBF19684E /* IBATextInputProvider.h */,
+				C32CCC14F3104879AF63E05E /* IBATitleFormField.h */,
+				2E004982141F4A5C89536E02 /* IBATextFormField+Factory.m */,
+				4509950AA14C44119249AC71 /* IBABooleanFormField.m */,
+				3DFB7E3BEBDE418788450BDB /* IBAButtonFormField.m */,
+				10883CCA2D6A4442A6714177 /* IBADateFormField.m */,
+				A5C7AD4EF871405A8F0F7F5A /* IBAFormDataSource.m */,
+				46C5ECB48CBA4841BD876CFD /* IBAFormField.m */,
+				42FA980AF34D470BBEE8E558 /* IBAFormFieldStyle.m */,
+				8F3E6EF8129D4B9BAB7811A6 /* IBAFormSection.m */,
+				7200D987AB434782B4C6E1D0 /* IBAFormViewController.m */,
+				F4B7314645E2487493034D29 /* IBAInputRequestorFormField.m */,
+				AF96DCE6723D492FA55F2196 /* IBALabelFormField.m */,
+				AAE25E54A61947968408F005 /* IBAPickListFormField.m */,
+				2DB4C9C210714286BEB6FFE1 /* IBAReadOnlyTextFormField.m */,
+				B295DDC0BCBE4620B8E82C6F /* IBATextFormField.m */,
+				96810486CFCE4D1C955DC445 /* IBATitleFormField.m */,
+				0F24C5D6ADE049D487920EF0 /* IBABooleanSwitchCell.m */,
+				F5A7782EE2BB4F1FB20F53A2 /* IBADateFormFieldCell.m */,
+				54D7879D3F544F27AE0AB2BE /* IBAFormFieldCell.m */,
+				E85B7A7691864C4A9885E3EE /* IBALabelFormCell.m */,
+				18C39980BA2A4D7B8C545B45 /* IBATextFormFieldCell.m */,
+				58411E12D68D4B7DBE7C7330 /* IBADateInputProvider.m */,
+				D568E268F602418A8C8C282F /* IBAInputManager.m */,
+				A93445FE195E4BE7860ECAE0 /* IBAMultiplePickListInputProvider.m */,
+				59112A214B294BD9B80B8830 /* IBASinglePickListInputProvider.m */,
+				3175F85EA1B847649FFAC0F2 /* IBATextInputProvider.m */,
+				D002475E3E054B189B475C1D /* IBAInputNavigationToolbar.m */,
+			);
+			name = IBAForms;
+			sourceTree = "<group>";
+		};
+		16C4F51A4F6144B28784E5FD /* DCRoundSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				AC306D15BD2748A8BD21DFC9 /* DCRoundSwitch.h */,
+				0EDA92F989CD4093AD7128B7 /* DCRoundSwitch.m */,
+				75CB181EA08942478F041ED2 /* DCRoundSwitchKnobLayer.h */,
+				62F778E3A40C4A8ABF31DA8A /* DCRoundSwitchKnobLayer.m */,
+				2B18F9663BB749AA9048B1D9 /* DCRoundSwitchOutlineLayer.h */,
+				72F19E074F93439FA343C7AA /* DCRoundSwitchOutlineLayer.m */,
+				FBB4F87F6F544A50842E6EE5 /* DCRoundSwitchToggleLayer.h */,
+				F7E405C3F16D4C3491093F4D /* DCRoundSwitchToggleLayer.m */,
+			);
+			name = DCRoundSwitch;
+			sourceTree = "<group>";
+		};
+		2EF9ACE95FFB459E866F2B59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48B431D278034D5AB48F8F87 /* Pods-resources.sh */,
+				66EECEEE3E45462F995F1A6D /* Pods-prefix.pch */,
+				2D43C3CC75D043BCAD178FE5 /* Pods.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E8EEABD24A84EFA87AAE801 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E6C285ED64140679C428B5F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86F0DCED3793452D9A5E384F = {
+			isa = PBXGroup;
+			children = (
+				E4443E9ED24743DD89FD2BBB /* Products */,
+				88BFE93F55194AD4BED884AF /* Pods */,
+				AE23A221FEA34C7C849786D1 /* Targets Support Files */,
+				5E8EEABD24A84EFA87AAE801 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88BFE93F55194AD4BED884AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16C4F51A4F6144B28784E5FD /* DCRoundSwitch */,
+				0AC51B6686204FF4A0DFDDF2 /* IBAForms */,
+				FA64A38D1ECA49E098B13005 /* OHAttributedLabel */,
+				DBB550C50D354C63A614582E /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE23A221FEA34C7C849786D1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EF9ACE95FFB459E866F2B59 /* Pods */,
+				582ED231ECB646F5B458BEF3 /* PodsDummy_Pods.m */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DBB550C50D354C63A614582E /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				536AFC70AEC242EC93C880A8 /* SVProgressHUD.h */,
+				2A3DAC2897CB4F28ADDDAF16 /* SVProgressHUD.m */,
+			);
+			name = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		E4443E9ED24743DD89FD2BBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30DE421BBE7A4E3B9ADD79AF /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA64A38D1ECA49E098B13005 /* OHAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8971B03E231E4E8E9F53E62A /* CoreTextUtils.h */,
+				BB37249446A6446CA097B820 /* NSAttributedString+Attributes.h */,
+				B9452FEBD5E74FA28153C626 /* NSTextCheckingResult+ExtendedURL.h */,
+				D1337A37473849EDA72ED337 /* OHAttributedLabel.h */,
+				E86E2577EEE04654BF3195AD /* OHASBasicHTMLParser.h */,
+				D92F258511F6413FB069E52E /* OHASBasicMarkupParser.h */,
+				BB2C790882904ED98589ECF2 /* OHASMarkupParserBase.h */,
+				36180D69257B4A309B0012E7 /* CoreTextUtils.m */,
+				930C4704174B4E6C8D98C2EB /* NSAttributedString+Attributes.m */,
+				4FFD592DB6EA495AA631F0A1 /* NSTextCheckingResult+ExtendedURL.m */,
+				A61B09F0221E4821B25900B5 /* OHAttributedLabel.m */,
+				C25AF71720E54343B28EFA07 /* OHASBasicHTMLParser.m */,
+				E84FFA4BD23045E88E0E959B /* OHASBasicMarkupParser.m */,
+				AF8BE981B8894C028E32820E /* OHASMarkupParserBase.m */,
+			);
+			name = OHAttributedLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		340A0E76A629456FB4F0C57F /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986BAB8256024CA28EEE6590 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				F93CE2030FA243B09A828148 /* Sources */,
+				E840BF5174A94BE895DB19BE /* CopyFiles */,
+				ED47CA3B51F74E88A15BE50A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 30DE421BBE7A4E3B9ADD79AF /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD9499CFC73549E98240990A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = DFE622FB1E0C4DEF90FCF8CF /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86F0DCED3793452D9A5E384F;
+			productRefGroup = E4443E9ED24743DD89FD2BBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				340A0E76A629456FB4F0C57F /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F93CE2030FA243B09A828148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61251DA1BEDD410FB07E39DC /* DCRoundSwitch.m in Sources */,
+				3CA818AEA1F54F60BAFE7BF4 /* DCRoundSwitchKnobLayer.m in Sources */,
+				944B849972ED499393760167 /* DCRoundSwitchOutlineLayer.m in Sources */,
+				FC6AC6291641459096AC71BF /* DCRoundSwitchToggleLayer.m in Sources */,
+				35D961097F8E4EB8AD5101A8 /* IBATextFormField+Factory.m in Sources */,
+				2AC85230A6F9422F8DB26D6B /* IBABooleanFormField.m in Sources */,
+				263FDF4585C9435C938C514E /* IBAButtonFormField.m in Sources */,
+				26CD39BF64DE49769A2A3DD7 /* IBADateFormField.m in Sources */,
+				33A98DE77C4D43B5905FED6B /* IBAFormDataSource.m in Sources */,
+				DC4CD4730C034C259BE0DDE4 /* IBAFormField.m in Sources */,
+				D159E6F46DC442A38E26694F /* IBAFormFieldStyle.m in Sources */,
+				851BB9EBDC364A3DBEC018EF /* IBAFormSection.m in Sources */,
+				60A8D1F83DAB41EA91EB24EF /* IBAFormViewController.m in Sources */,
+				AB6DCDB4B9094AE0A57FC07C /* IBAInputRequestorFormField.m in Sources */,
+				014524279C5545C9A7C63A91 /* IBALabelFormField.m in Sources */,
+				2B81E8D0447F41479A8D7E23 /* IBAPickListFormField.m in Sources */,
+				3D317D98DA7846C0A3ADBFA2 /* IBAReadOnlyTextFormField.m in Sources */,
+				209F674A153A4D8D8F535DCB /* IBATextFormField.m in Sources */,
+				DBB5CB2FE57E4794A93E9461 /* IBATitleFormField.m in Sources */,
+				478226E2D1344F408F7DF888 /* IBABooleanSwitchCell.m in Sources */,
+				5992D673A3734592988F9F40 /* IBADateFormFieldCell.m in Sources */,
+				BF4154C60A7645DBA3587DD0 /* IBAFormFieldCell.m in Sources */,
+				74750BDB6ECD499BAFB5BFED /* IBALabelFormCell.m in Sources */,
+				AC72207AB0694453AC04AFCB /* IBATextFormFieldCell.m in Sources */,
+				96B951A1285F4A328C56D535 /* IBADateInputProvider.m in Sources */,
+				A2F3D2F502A841369723AFC4 /* IBAInputManager.m in Sources */,
+				E9012AF363224ADC9560DAD4 /* IBAMultiplePickListInputProvider.m in Sources */,
+				19DF2ECBFA50499C8513AD87 /* IBASinglePickListInputProvider.m in Sources */,
+				857E5E5441274D5C8B9C6693 /* IBATextInputProvider.m in Sources */,
+				89708C1E7FB54DA5B4827322 /* IBAInputNavigationToolbar.m in Sources */,
+				5BE52E524E6D4AD3B23A33D6 /* CoreTextUtils.m in Sources */,
+				EAFF5ADAB64A4178BB098E4D /* NSAttributedString+Attributes.m in Sources */,
+				A9FAD7CF79D548F688D59ECE /* NSTextCheckingResult+ExtendedURL.m in Sources */,
+				6153F3CED63A42B796AA19C4 /* OHAttributedLabel.m in Sources */,
+				75B80AF63ADC495D997B0056 /* OHASBasicHTMLParser.m in Sources */,
+				0C0E902D52814DC6BED13F75 /* OHASBasicMarkupParser.m in Sources */,
+				7A443C75A4E240DAAD3F01A7 /* OHASMarkupParserBase.m in Sources */,
+				F53C574513FF4084BF404C2F /* SVProgressHUD.m in Sources */,
+				C549B7177F064824821F10DF /* PodsDummy_Pods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D425A501CF248FBB183261E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		55498633B53D46B9978C5116 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D43C3CC75D043BCAD178FE5 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		6736D87BC2F040EFBBBCBF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		69FFE31FCAC1489E8C437853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D43C3CC75D043BCAD178FE5 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6EE6E91E3B414F3A96D494D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D43C3CC75D043BCAD178FE5 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				PODS_HEADERS_SEARCH_PATHS = "${PODS_BUILD_HEADERS_SEARCH_PATHS}";
+				PODS_ROOT = "${SRCROOT}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C96E2498C3064BD58D137FD9 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		986BAB8256024CA28EEE6590 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FFE31FCAC1489E8C437853 /* Debug */,
+				6EE6E91E3B414F3A96D494D6 /* Release */,
+				55498633B53D46B9978C5116 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE622FB1E0C4DEF90FCF8CF /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D425A501CF248FBB183261E /* Debug */,
+				6736D87BC2F040EFBBBCBF0F /* Release */,
+				C96E2498C3064BD58D137FD9 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD9499CFC73549E98240990A /* Project object */;
+}

@@ -1,0 +1,53 @@
+html, body{
+  margin:0;
+  padding:0 5px;
+  overflow: hidden; 
+  font-family:Helvetica Neue; 
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.title
+{
+	color:#000000;
+	font-size: 18px;
+	margin:0;
+	padding:0;
+}
+
+
+h1
+{
+	color:#000000;
+	font-size: 20px;
+	font-weight: bold;
+	margin:0;
+	padding:0;
+}
+
+.medium
+{
+	color:#000000;
+	font-size: 16px;
+	font-weight: bold;
+	margin:0;
+	padding-top:6px;
+}
+
+.liner
+{
+	margin:0;
+	padding:0;
+}
+
+.bolder {
+  color:#000000;
+font-size: 13px;
+font-weight: bold;
+}
+
+.unbold {
+  color:#000000;
+font-size: 13px;
+font-weight: normal;
+}

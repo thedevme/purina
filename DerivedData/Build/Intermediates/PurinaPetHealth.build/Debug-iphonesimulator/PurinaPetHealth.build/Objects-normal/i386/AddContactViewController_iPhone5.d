@@ -1,0 +1,41 @@
+dependencies: \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Controllers/AddContactViewController_iPhone5.m \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Controllers/AddContactViewController_iPhone5.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/Core\ Data\ Stack/CoreDataStack.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Model/ContactData.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Model/Contact.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Model/_Contact.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/Block\ Alert/BlockAlertView.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/AFNetworking/AFJSONRequestOperation.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/AFNetworking/AFHTTPRequestOperation.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/AFNetworking/AFURLConnectionOperation.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/Adjustable\ Label/UILabel+ESAdjustableLabel.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/UniqueID/UniqueID.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/NSURL\ Path\ Parameters/NSURL+PathParameters.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/TTTAttributedLabel.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Controllers/FindContactViewController.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/Core\ Location\ Controller/CoreLocationController.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Controllers/FindAContactCell_iPhone.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Controllers/FindAContactCell.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/YPRequest.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/AFNetworking/AFNetworking.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/AFNetworking/AFXMLRequestOperation.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/AFNetworking/AFPropertyListRequestOperation.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/AFNetworking/AFHTTPClient.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/AFNetworking/AFImageRequestOperation.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/AFNetworking/AFNetworkActivityIndicatorManager.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/AFNetworking/UIImageView+AFNetworking.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Controllers/Map\ View/MapViewController.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Controllers/Map\ View/ContactAnnotation.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/Pods/Headers/SVProgressHUD/SVProgressHUD.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/THMultiPartLabel.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/Pods/Headers/OHAttributedLabel/OHAttributedLabel.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/Pods/Headers/OHAttributedLabel/NSAttributedString+Attributes.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/Pods/Headers/OHAttributedLabel/NSTextCheckingResult+ExtendedURL.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/Constants/UIColor+PetHealth.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Controllers/Find\ Pet\ Fun/PurinaItemButton.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/TPKeyboard\ Avoiding/TPKeyboardAvoidingScrollView.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/PurinaPetHealth/Helpers/Constants/Constants.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/Pods/Headers/OHAttributedLabel/OHASBasicHTMLParser.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/Pods/Headers/OHAttributedLabel/OHASMarkupParserBase.h \
+  /Users/craigclayton/Documents/Triad\ Projects/Triad\ iOS\ Projects/iOS\ Pet\ Health/Pods/Headers/OHAttributedLabel/OHASBasicMarkupParser.h

@@ -1,0 +1,261 @@
+{
+  "articles": {
+    "article": [
+      {
+        "title": "Poisonous Plants",
+        "desc": "Some of the following plants can be toxic to your cat. Check with your veterinarian before having them in your home.",
+        "category": "saftey-faqs",
+        "sub_category": "Harmful Substance",
+        "species": "cat",
+        "copy" : "poisonousplants-cat"
+      },
+      {
+        "title": "Why do I need to keep my pet away from antifreeze?",
+        "desc": "Antifreeze makes your car run better in the summertime and wintertime, but it’s dangerous to your pet.",
+        "category": "saftey-faqs",
+        "sub_category": "Harmful Substance",
+        "species": "cat",
+        "copy" : "antifreeze-cat"
+      },
+      {
+        "title": "Could the pesticides and fertilizers I use on my lawn be dangerous to my pet?",
+        "desc": "If you plan to use pesticides or fertilizers on your lawn, be mindful of your cat or dog.",
+        "category": "saftey-faqs",
+        "sub_category": "Harmful Substance",
+        "species": "cat",
+        "copy" : "pesticides-cat"
+      },
+      {
+        "title": "If my pet eats something poisonous, what should I do?",
+        "desc": "If your pet swallows poison, you have to decide whether to treat him at home ...",
+        "category": "saftey-faqs",
+        "sub_category": "Harmful Substance",
+        "species": "cat",
+        "copy" : "poisonous2-cat"
+      },
+      {
+        "title": "Is it dangerous for my pet to nibble on houseplants?",
+        "desc": "Your pet might have a passion for houseplants, but some common varieties can make your pet sick, and a few may even be deadly.",
+        "category": "saftey-faqs",
+        "sub_category": "Harmful Substance",
+        "species": "cat",
+        "copy" : "houseplants-cat"
+      },
+      {
+        "title": "What common outdoor plants are poisonous to pets?",
+        "desc": "Ornamental plants add color to our lawns, but some of them pose a hidden danger to our pets.",
+        "category": "saftey-faqs",
+        "sub_category": "Harmful Substance",
+        "species": "cat",
+        "copy" : "poisonous3-cat"
+      },
+      {
+        "title": "What is tooth resorption?",
+        "desc": "Tooth resorption is a dental condition in which an animal develops a lesion in the crown or root of a tooth.",
+        "category": "basic-care",
+        "sub_category": "Dental Health",
+        "species": "cat",
+        "copy" : "tooth-cat"
+      },
+      {
+        "title": "Do dogs and cats get TMJ problems the way humans do?",
+        "desc": "The temporomandibular joint, or TMJ, is a hinge joint that lets your jaw open and close.",
+        "category": "basic-care",
+        "sub_category": "Dental Health",
+        "species": "cat",
+        "copy" : "tmj-cat"
+      },
+      {
+        "title": "At what age can my cat become pregnant?",
+        "desc": "If you’ve just introduced an un-spayed kitten into your household, you may want to know when her feline biological clock will start ticking.",
+        "category": "health",
+        "sub_category": "Pregnancy",
+        "species": "cat",
+        "copy" : "pregnant-cat"
+      },
+      {
+        "title": "What are the first signs of pregnancy in a cat?",
+        "desc": "Pregnancy in cats lasts about nine weeks. But early signs are easy to miss.",
+        "category": "health",
+        "sub_category": "Pregnancy",
+        "species": "cat",
+        "copy" : "pregnant2-cat"
+      },
+      {
+        "title": "My cat is going to have kittens. What possible complications should I look for?",
+        "desc": "Autumn Davidson, a Veterinary Internist at the University of California-Davis says cats have very few problems giving birth,",
+        "category": "health",
+        "sub_category": "Pregnancy",
+        "species": "cat",
+        "copy" : "pregnant3-cat"
+      },
+      {
+        "title": "My cat is going to have kittens, what happens during a normal delivery?",
+        "desc": "The week before labor begins, provide your pregnant cat with a warm, quiet area, and lots of towels.",
+        "category": "health",
+        "sub_category": "Pregnancy",
+        "species": "cat",
+        "copy" : "pregnant4-cat"
+      },
+      {
+        "title": "Is it true that a single litter can include kittens from multiple sires?",
+        "desc": "When a cat is in estrus - or heat as it is commonly known - she will have one item on her agenda... mating.",
+        "category": "health",
+        "sub_category": "Pregnancy",
+        "species": "cat",
+        "copy" : "pregnant5-cat"
+      },
+      {
+        "title": "What are some possible reasons for infertility in a male cat?",
+        "desc": "Infertility in male tomcats is not usually a problem - unless you’re a cat breeder with a valuable, champion tom that can’t fulfill its reproductive obligations.",
+        "sub_category": "Pregnancy",
+        "species": "cat",
+        "copy" : "pregnant6-cat"
+      },
+      {
+        "title": "How can I stop my cat from using my houseplants as litter boxes?",
+        "desc": "If your cat lived outdoors, she would naturally use the dirt to urinate or defecate.",
+        "category": "behavior-training",
+        "sub_category": "Training",
+        "species": "cat",
+        "copy" : "litter-cat"
+      },
+      {
+        "title": "Why has my cat suddenly stopped using the litter box?",
+        "desc": "If your cat stops using the litter box, don’t punish him - try to find out why.",
+        "category": "behavior-training",
+        "sub_category": "Training",
+        "species": "cat",
+        "copy" : "litter2-cat"
+      },
+      {
+        "title": "How do I train an outdoor cat to start using an indoor litter box?",
+        "desc": "If your cat lived outdoors, she would naturally use the dirt to urinate or defecate.",
+        "category": "behavior-training",
+        "sub_category": "Training",
+        "species": "cat",
+        "copy" : "litter3-cat"
+      },
+      {
+        "title": "What might I consider when choosing a litterbox for my cat?",
+        "desc": "Litterboxes may all look more or less the same to you, but probably not to your cat.",
+        "category": "behavior-training",
+        "sub_category": "Training",
+        "species": "cat",
+        "copy" : "litter4-cat"
+      },
+      {
+        "title": "Understanding your Cat's Body Condition",
+        "desc": "While some pet owners think a fat cat is a healthy cat, there are easy ways to find out if your cat has the ideal body condition.",
+        "category": "basic-care",
+        "sub_category": "Weight Control",
+        "species": "cat",
+        "copy" : "weight-cat"
+      },
+      {
+        "title": "What are the three main feline body types?",
+        "desc": "Cats come in such a huge variety of shapes and sizes that it might seem difficult to classify them.",
+        "category": "basic-care",
+        "sub_category": "Weight Control",
+        "species": "cat",
+        "copy" : "bodytypes-cat"
+      },
+      {
+        "title": "My cat is losing weight even though she eats well. What could be the problem?",
+        "desc": "Is your older cat high-strung? Does she lose weight but eat like a pig?",
+        "category": "basic-care",
+        "sub_category": "Weight Control",
+        "species": "cat",
+        "copy" : "weight2-cat"
+      },
+      {
+        "title": "My cat has been losing a lot of weight recently, even though her diet hasn't changed. What might be the problem?",
+        "desc": "Has your cat been shedding more pounds than hair lately? Is her rich fur coat looking dull? These could be signs of roundworm.",
+        "category": "basic-care",
+        "sub_category": "Weight Control",
+        "species": "cat",
+        "copy" : "weight3-cat"
+      },
+      {
+        "title": "Why is obesity so dangerous for pets?",
+        "desc": "For years, antibiotics have been used to destroy bad bacteria in a pet’s body.",
+        "category": "basic-care",
+        "sub_category": "Weight Control",
+        "species": "cat",
+        "copy" : "weight4-cat"
+      },
+      {
+        "title": "How do I know if my cat is overweight?",
+        "desc": "Humans aren’t the only ones living large. The obesity epidemic is affecting our cats, too. ",
+        "category": "basic-care",
+        "sub_category": "Weight Control",
+        "species": "cat",
+        "copy" : "weight5-cat"
+      },
+      {
+        "title": "How can I help my cat lose weight?",
+        "desc": "Does your cat have an apron of fat where his figure-eight waist ought to be?",
+        "category": "basic-care",
+        "sub_category": "Weight Control",
+        "species": "cat",
+        "copy" : "weight6-cat"
+      },
+      {
+        "title": "What should I look for in the food for a cat that needs to lose weight?",
+        "desc": "What's one all-American solution to feline obesity? An Atkins - or \"catkins\"-style diet for cats. Veterinarian Margee Scherk, Editor of the Journal of Feline Medicine and Surgery, approves. ",
+        "category": "basic-care",
+        "sub_category": "Weight Control",
+        "species": "cat",
+        "copy" : "weight7-cat"
+      },
+      {
+        "title": "My cat is slightly overweight. How much weight can she safely lose in a month?",
+        "desc": "Pet owners who equate food with love may literally be killing their cats with kindness. Feline obesity leads to a host of diseases, including premature death.",
+        "category": "basic-care",
+        "sub_category": "Weight Control",
+        "species": "cat",
+        "copy" : "weight8-cat"
+      },
+      {
+        "title": "How can I get my fat and lazy cat to exercise?",
+        "desc": "Just like humans, cats can lose weight by exercising. Veterinarian Margee Scherk, Editor of the Journal of Feline Medicine and Surgery, says there are a lot of ways to get an obese cat up and moving.",
+        "category": "basic-care",
+        "sub_category": "Weight Control",
+        "species": "cat",
+        "copy" : "weight9-cat"
+      },
+      {
+        "title": "What are some possible causes of weight loss in cats?",
+        "desc": "If your cat is shedding pounds - not just fur - it's important to get him checked out by a veterinarian. ",
+        "category": "basic-care",
+        "sub_category": "Weight Control",
+        "species": "cat",
+        "copy" : "weight10-cat"
+      },
+      {
+        "title": "Emergency First Aid Tips",
+        "desc": "In an emergency, keep a level head and quickly get your cat to the veterinarian. Call first.",
+        "category": "saftey-faqs",
+        "sub_category": "First Aid",
+        "species": "cat",
+        "copy" : "emergency-cat"
+      },
+      {
+        "title": "Home Safe Home",
+        "desc": "Even cats that spend most of their time indoors may be exposed to a number of potential hazards.",
+        "category": "saftey-faqs",
+        "sub_category": "First Aid",
+        "species": "cat",
+        "copy" : "emergency2-cat"
+      },
+      {
+        "title": "I'm putting a first aid kit together for my pet, what should I include?",
+        "desc": "You never know when you might have an emergency with your cat or dog, so it’s important to know what to include in a pet safety kit.",
+        "category": "saftey-faqs",
+        "sub_category": "First Aid",
+        "species": "cat",
+        "copy" : "emergency3-cat"
+      }
+    ]
+  }
+}
